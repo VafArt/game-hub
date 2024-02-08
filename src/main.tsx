@@ -7,7 +7,7 @@ import "./index.css";
 import { HashRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <HashRouter>
+  <HashRouter basename={process.env.PUBLIC_URL}>
     <React.StrictMode>
       <ChakraProvider theme={theme}>
         <ColorModeScript initialColorMode={theme.config.initialColorMode} />
