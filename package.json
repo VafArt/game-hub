@@ -1,9 +1,9 @@
 {
   "name": "game-hub",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://VafArt.github.io/",
+  "homepage": "https://vafart.github.io/game-hub",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
